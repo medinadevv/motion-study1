@@ -1,0 +1,213 @@
+#other {
+  .other {
+    &--block {
+      h1 {
+        color: #212121;
+        font-family: Gilroy, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 100px 0 0 0;
+      }
+      .line {
+        width: 126px;
+        height: 3px;
+        border-radius: 2px;
+        background: #6483f6;
+        margin: 0 0 60px 0;
+      }
+    }
+    &--one {
+      h2 {
+        color: #002ac0;
+        font-family: Montserrat, sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 63px 0 0 0;
+      }
+      h3 {
+        width: 1108px;
+        color: #010d39;
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-transform: capitalize;
+        padding: 0 0 20px 0;
+      }
+      &__blue {
+        display: flex;
+        align-items: center;
+        .tochka {
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #333;
+          margin: 0 20px 0 0;
+        }
+        h4 {
+          width: 1108px;
+          color: #333;
+          font-family: Montserrat, sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 28px;
+          text-transform: capitalize;
+          padding: 20px 0;
+        }
+      }
+    }
+    &--two {
+      h3 {
+        padding: 60px 0 0 0;
+        color: #002ac0;
+        font-family: Montserrat, sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+      &__id {
+        display: flex;
+        align-items: center;
+        margin: 0 0 71px 0;
+        h4 {
+          width: 1099px;
+          height: 66px;
+          color: #333;
+          font-family: Montserrat, sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 28px;
+          text-transform: capitalize;
+          padding-top: 20px;
+        }
+        .tochka {
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #333;
+          margin: 0 20px 0 0;
+        }
+      }
+    }
+    &--three {
+        padding: 0 0 211px 0;
+      h3 {
+        color: #002ac0;
+        font-family: Montserrat, sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 0 0 48px 0;
+      }
+      &__questions {
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px 0;
+        .tochka {
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #333;
+          margin: 0 20px 0 0;
+        }
+        h4 {
+          width: 979px;
+          color: #333;
+          font-family: Montserrat, sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;  }
+}
+@media (max-width: 1200px) {
+  #other .other--one h3 {
+    width: 982px;  }
+}
+@media (max-width: 1024px) {
+  #other .other--one h3 {
+    width: 982px;  }
+}
+@media (max-width: 992px) {
+  #other .other--one h3 {
+    width: 719px;  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  #other .other--one h3 {
+    width: 485px;  }
+  #other .other--block h1 {
+    font-size: 39px;  }
+  #other .other--one h2 {
+    font-size: 30px;  }
+  #other .other--one h3 {
+    width: 432px;      font-size: 17px;      padding: 20px 0;    }
+  #other .other--one__blue h4 {
+    font-size: 16px;  }
+  #other .other--two h3 {
+    padding: 45px 0 0 0;    font-size: 30px;  }
+  #other .other--two__id h4 {
+    font-size: 18px;    padding: 20px 0;  }
+  #other .other--three h3 {
+    font-size: 30px;  }
+  #other .other--three__questions h4 {
+    font-size: 18px;  }
+  #other .other--three h3 {
+    font-size: 30px;    padding: 50px 0;  }
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 400px) {
+  #other .other--three h3 {
+    font-size: 30px;    padding-top: 100px;  }
+
+}
+@media (max-width: 376px) {
+  #other .other--one h3 {
+    width: 339px;    font-size: 17px;    padding: 20px 0;  }
+  #other .other--one h3 {
+    width: 279px;    font-size: 15px;  }
+  #other .other--one h2 {
+    font-size: 20px;  }
+  #other .other--block h1 {
+    font-size: 35px;  }
+  #other .other--one__blue h4 {
+    font-size: 15px;  }
+  #other .other--two h3 {
+    padding: 45px 0 0 0;    font-size: 20px;  }
+  #other .other--three h3 {
+    font-size: 20px;    padding-top: 145px;  }
+  #other .other--three__questions h4 {
+    font-size: 15px;  }
+}
+@media (max-width: 320px) {
+  #other .other--one h3 {
+    width: 339px;    font-size: 17px;    padding: 20px 0;  }
+  #other .other--one h3 {
+    width: 279px;    font-size: 15px;  }
+  #other .other--one h2 {
+    font-size: 20px;  }
+  #other .other--block h1 {
+    font-size: 35px;  }
+  #other .other--one__blue h4 {
+    font-size: 15px;  }
+  #other .other--two h3 {
+    padding: 45px 0 0 0;    font-size: 20px;  }
+  #other .other--three h3 {
+    font-size: 20px;    padding-top: 145px;  }
+  #other .other--three__questions h4 {
+    font-size: 15px;  }
+}

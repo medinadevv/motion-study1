@@ -1,0 +1,35 @@
+#footer {
+  margin-top: 120px;
+  background: black;
+.container {
+  margin-top:8px ;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    height: 93px;
+    align-items: center;
+    &__text{
+      h3{
+        font-size:14px;
+        font-weight: 350;
+        line-height: 19.5px;
+      }
+    }
+
+    &__hr{
+      width: 1140px;
+      opacity: 0.5;
+      height:10px ;
+    }
+
+    &__icon{
+      font-size: 28px;
+    }
+  }
+  h4{
+    font-size:13px;
+    font-weight: 250;
+    line-height: 35px;
+  }
+}
+}

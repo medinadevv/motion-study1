@@ -1,0 +1,198 @@
+#Slider {
+  padding: 100px 0;
+  .Slider {
+    h1 {
+      color: #000000;
+      font-size: 44px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .Slider--block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow-x: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      margin: 10 -12% 0 10px;
+      padding: 40px 0;
+
+      &--one {
+
+        position: relative;
+
+        img {
+          position: absolute;
+          top: -36px;
+          left: 220px;
+        }
+
+        &--text {
+          margin: 0 20px;
+          //padding-top: 30px;
+          //width: 487px;
+          //height: 300px;
+          //border-radius: 10px;
+          //background: #102146;
+          //margin: 0 10px;
+
+          &--h1 {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 50px;
+          }
+
+          p {
+            width: 387px;
+            color: #FFF;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            margin: 15px 0 25px 43px;
+
+          }
+          
+
+          span {
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 60% 0 0 324px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #Slider .Slider .Slider--block--one--text {
+    padding-top: 10px;
+    width: 430px;
+    height: 257px;
+    margin: 0 16px;
+  }
+  #Slider .Slider .Slider--block--one img {
+    left: 191px;
+  }
+  #Slider .Slider .Slider--block--one--text p {
+    margin: -2px 0 28px 28px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  #Slider .Slider .Slider--block--one--text {
+    width: 350px;
+    height: 224px;
+  }
+  #Slider .Slider .Slider--block--one img {
+    left: 149px;
+
+  }
+  #Slider .Slider .Slider--block--one--text p {
+    margin: -2px 0 13px 28px;
+  }
+  #Slider .Slider .Slider--block--one--text p {
+    width: 295px;
+    font-size: 11px;
+  }
+  #Slider .Slider .Slider--block--one--text--h1 {
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  #Slider .Slider .Slider--block--one--text span {
+    font-size: 15px;
+    margin-top: -30px;
+  }
+  #Slider .Slider .Slider--block--one--text span {
+    font-size: 15px;
+    margin: 60% 0 0 259px;
+  }
+  #Slider .Slider .Slider--block--one--text {
+    width: 326px;
+  }
+  #Slider .Slider .Slider--block--one--text--h1 {
+    font-size: 15px;
+  }
+  #Slider .Slider .Slider--block--one--text p {
+    width: 276px;
+    font-size: 10px;
+  }
+  #Slider .Slider .Slider--block--one--text span {
+    font-size: 14px;
+    margin: 60% 0 0 222px;
+  }
+  #Slider .Slider .Slider--block--one img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 376px){
+  #Slider .Slider .Slider--block--one--text {
+    width: 302px;
+    height: 196px;
+  }
+  #Slider .Slider .Slider--block--one img {
+    width: 63px;
+    margin-left: -17px;
+  }
+  #Slider .Slider .Slider--block--one--text--h1 {
+    font-size: 16px;
+    margin-top: 19px;
+  }
+  
+  #Slider .Slider .Slider--block--one--text p {
+    margin: -12px 0 6px 23px;
+  }
+  #Slider .Slider h1 {
+    font-size: 35px;
+    width: 31%;
+}
+}
+
+@media (max-width: 320px){
+  iframe{
+    width: 300px;
+    height: 250px;
+  }
+  #Slider .Slider h1 {
+    font-size: 28px;
+    width: 102%;
+}
+  #Slider .Slider .Slider--block--one--text {
+    width: 255px;
+    height: 168px;
+  }
+  #Slider .Slider .Slider--block--one img {
+    margin-left: -32px;
+  }
+  #Slider .Slider .Slider--block--one--text--h1 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  #Slider .Slider .Slider--block--one--text p {
+    width: 246px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+    #Slider .Slider .Slider--block--one--text p {
+      margin: 11px 0 4px 6px;
+    }
+  #Slider .Slider .Slider--block--one--text span {
+    font-size: 12px;
+    margin: 60% 0 0 172px;
+  }
+  #Slider .Slider .Slider--block--one {
+    margin: 0 10px;
+}
+}

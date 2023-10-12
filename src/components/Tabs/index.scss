@@ -1,0 +1,1324 @@
+#tabs {
+  padding: 5% 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  .tabs {
+    &--bloc {
+      position: relative;
+      width: 1240px;
+      height: 48.447px;
+      flex-shrink: 0;
+      border-radius: 3.727px;
+      background: #F5F5F5;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      &__description {
+        cursor: pointer;
+        color: var(--text-212121, #212121);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+
+      &__cost {
+        cursor: pointer;
+        color: var(--text-212121, #212121);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+
+      &__photo {
+        cursor: pointer;
+        color: var(--text-212121, #212121);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+
+    &--content {
+      //flex-grow: 1;
+      display: block;
+
+      &__active {
+        display: flex;
+        padding: 16px 0 0 0;
+        justify-content: space-between;
+
+        &--nike {
+          //padding: 35px 0 0 0;
+          margin-left: 90px;
+
+          &__nomer {
+            display: flex;
+            align-items: center;
+            margin-bottom: 52px;
+
+            img {
+              margin: 0 97px 0 0;
+            }
+
+            &--a {
+              h1 {
+                color: var(--text-212121, #212121);
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: capitalize;
+              }
+
+              h2 {
+                width: 287px;
+                color: #1AA2EE;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: 8px;
+              }
+            }
+          }
+
+          &__duration {
+            display: flex;
+            margin-bottom: 40px;
+
+            h1 {
+              width: 200px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            h2 {
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              margin-left: 21px;
+            }
+          }
+
+          &__awards {
+            display: flex;
+            margin-bottom: 30px;
+            position: relative;
+
+            h1 {
+              width: 89px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+
+              span {
+              }
+
+              span::before {
+                content: '';
+                width: 559.008px;
+                height: 1px;
+                background: #212121;
+                position: absolute;
+                top: 176px;
+                left: 0;
+              }
+            }
+
+            h2 {
+              margin-left: 132px;
+              width: 338px;
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+
+              span {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+            }
+          }
+
+          &__hover {
+            display: flex;
+            padding-top: 8%;
+
+            h1 {
+              width: 124px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            p {
+              margin-left: 97px;
+              width: 233px;
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              position: relative;
+
+              span {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+
+              span::before {
+                content: '';
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 338.061px;
+                height: 1px;
+                background: #212121;
+              }
+            }
+          }
+
+          &__hovers {
+            display: flex;
+            padding-top: 5.5%;
+
+            h1 {
+              width: 124px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            p {
+              margin-left: 97px;
+              width: 233px;
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              position: relative;
+
+              span {
+              }
+
+              span::before {
+                content: '';
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 338.061px;
+                height: 1px;
+                background: #212121;
+              }
+            }
+          }
+
+          &__love {
+            display: flex;
+            margin-top: 50px;
+
+            h1 {
+              width: 140px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              position: relative;
+
+              span {
+              }
+
+              span::before {
+                content: '';
+                width: 559.008px;
+                height: 1px;
+                background: #212121;
+                position: absolute;
+                top: 246px;
+                left: 0;
+              }
+            }
+
+            &--loves {
+              width: 338px;
+              height: 248px;
+              margin-left: 81px;
+              position: relative;
+
+              h6 {
+                margin-bottom: 40px;
+                width: 338px;
+                flex-shrink: 0;
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+
+              p {
+                flex-shrink: 0;
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+
+          &__fee {
+            display: flex;
+            margin-top: 10px;
+
+            h1 {
+              width: 124px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            &--no {
+              width: 335px;
+              position: relative;
+              margin-left: 100px;
+              margin-top: 15px;
+
+              h5 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+
+              p {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 20px;
+
+                span {
+                }
+
+                span::before {
+                  content: '';
+                  position: absolute;
+                  top: 190px;
+                  left: 0;
+                  width: 338.061px;
+                  height: 1px;
+                  background: #212121;
+                }
+              }
+            }
+          }
+
+          &__tea {
+            display: flex;
+            margin-top: 60px;
+
+            h1 {
+              width: 140px;
+              color: var(--text-1212, #010D39);
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            p {
+              margin-left: 81px;
+              width: 338px;
+              height: 250px;
+              flex-shrink: 0;
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        &--nikes {
+          width: 448px;
+          height: 1051px;
+          flex-shrink: 0;
+          padding: 25px 34px 25px 34px;
+
+          background: #FDFDFD;
+          box-shadow: 4.607201099395752px 7.371521949768066px 22.114566802978516px 0px rgba(0, 0, 0, 0.10);
+
+          &__not {
+            width: 100%;
+            height: 66px;
+            flex-shrink: 0;
+            background: #1AA2EE;
+
+            h1 {
+              padding-top: 19px;
+              color: #FDFDFD;
+              text-align: center;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: capitalize;
+
+              span {
+                color: #FDFDFD;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+              }
+            }
+          }
+
+          &__nots {
+            margin-top: 33px;
+            display: flex;
+
+            img {
+              margin-bottom: 140px;
+              margin-right: 21px;
+            }
+
+            &--calendar {
+              width: 313px;
+
+              h5 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+
+              p {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 10px;
+              }
+
+              h6 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+            }
+          }
+
+          &__cat {
+            display: flex;
+            margin-top: 40px;
+
+            img {
+              margin-bottom: 90px;
+              margin-right: 21px;
+            }
+
+            &--cast {
+              width: 317px;
+
+              h5 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+
+              p {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 10px;
+              }
+
+              h6 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 10px;
+              }
+            }
+          }
+
+          &__study {
+            display: flex;
+            margin-top: 40px;
+
+            img {
+              margin-right: 21px;
+            }
+
+            &--studies {
+              width: 228px;
+
+              h5 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+
+              p {
+                margin-top: 10px;
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+            }
+          }
+
+          &__now {
+            width: 100%;
+            height: 85px;
+            flex-shrink: 0;
+            margin-top: 60px;
+            margin-bottom: 20px;
+
+            background: rgba(26, 162, 238, 0.50);
+
+            h1 {
+              padding: 15px 79px 15px 119px;
+              width: 202px;
+              color: var(--3, #FFF);
+              text-align: center;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 138.9%; /* 30.558px */
+              text-transform: capitalize;
+
+              span {
+                color: var(--3, #FFF);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 138.9%;
+              }
+            }
+          }
+
+          &__eli {
+            display: flex;
+            align-items: center;
+
+            &--tu {
+              h1 {
+                width: 6px;
+                height: 17px;
+                flex-shrink: 0;
+                color: #fff;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                left: 61.9%;
+                top: 830px;
+              }
+            }
+
+            h3 {
+              margin-left: 22px;
+              width: 350px;
+              color: #FF6A6A;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+          }
+
+          &__sr {
+            display: flex;
+            margin-top: 40px;
+
+            img {
+              margin-right: 21px;
+            }
+
+            &--srs {
+              width: 228px;
+
+              h5 {
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+
+              p {
+                margin-top: 10px;
+                color: #212121;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+            }
+          }
+
+          &__list {
+            width: 380.021px;
+            height: 1px;
+            background: #212121;
+            margin-top: 40px;
+            margin-bottom: 54px;
+          }
+
+          &__wat {
+            display: flex;
+            align-items: center;
+
+            h1 {
+              width: 111px;
+              color: #212121;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-left: 44px;
+            }
+          }
+        }
+      }
+
+      &__actives {
+        align-items: center;
+
+        h1 {
+          color: var(--text-1212, #010D39);
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 175.9%;
+          text-transform: lowercase;
+          margin: 57px 0 50px 0;
+
+          span {
+            color: var(--text-1212, #36ADF0);
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 175.9%;
+            text-transform: capitalize;
+          }
+        }
+
+        p {
+          color: var(--text-1212, #010D39);
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 175.9%;
+          text-transform: capitalize;
+        }
+      }
+
+      &__photo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 37px;
+        margin: 20px 0;
+        padding-top: 20px;
+        justify-content: center;
+
+        &--photo1 {
+          img {
+            margin: 0 37px 40px 0;
+            width: 369px;
+            height: 342px;
+          }
+        }
+
+        &--photo2 {
+          img {
+            margin: 0 37px 0 0;
+            width: 369px;
+            height: 342px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 30px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__duration h1 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 529.008px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__love--loves h6 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike {
+    margin-left: -2px;
+  }
+  #tabs .tabs--bloc {
+    width: 1018px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #tabs .tabs--bloc {
+    width: 933px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 371px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    margin-left: 132px;
+    width: 286px;
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__love--loves h6 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hover h1 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  #tabs .tabs--content__active--nike__hovers h1 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 318px;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nike__tea h1 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 510.00800000000004px;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    width: 309.061px;
+  }
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 312.061px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    width: 291.061px;
+  }
+  #tabs .tabs--content__active--nikes__not {
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #1AA2EE;
+  }
+  #tabs .tabs--content__active--nikes__not h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar h5 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar h6 {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar p {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nikes__nots img {
+    width: 38px;
+  }
+  #tabs .tabs--content__active--nikes__cat img {
+    width: 38px;
+
+  }
+  #tabs .tabs--content__active--nikes__study img {
+    width: 38px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h5 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h6 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nikes__study--studies h5 {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nikes__now {
+    width: 300px;
+    height: 65px;
+  }
+  #tabs .tabs--content__active--nikes__now h1 {
+    width: 400px;
+    font-size: 16px;
+    margin-left: -60px;
+  }
+  #tabs .tabs--content__active--nikes__eli h3 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nikes__sr--srs h5 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nikes__sr--srs p {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nikes__wat h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 305.021px;
+  }
+}
+
+@media (max-width: 992px) {
+  #tabs .tabs--bloc {
+    width: 831px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 27px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 18px;
+    width: 226px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 18px;
+    width: 200px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 18px;
+    width: 177px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 253px;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 492.00800000000004px;
+  }
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 272.061px;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    width: 272.061px;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 495.008px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    width: 268.061px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 331px;
+    margin-left: -54px;
+  }
+  #tabs .tabs--content__active--nikes__not h1 {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nikes__not h1 span {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nikes__not {
+    width: 253px;
+    height: 60px;
+  }
+  #tabs .tabs--content__active--nikes__now {
+    width: 271px;
+    height: 65px;
+  }
+  #tabs .tabs--content__active--nikes__now h1 {
+    width: 370px;
+    font-size: 14px;
+    margin-left: -60px;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 263.021px;
+  }
+}
+
+  @media (max-width: 768px) {
+    #tabs .tabs--content__active {
+      margin-left: auto;
+      flex-wrap: wrap;
+      padding-top: 20px;
+    }
+    #tabs .tabs--bloc {
+      width: 665px;
+    }
+    #tabs .tabs--content__active--nikes {
+      width: 331px;
+      margin-left: 43px;
+    }
+    #tabs .tabs--bloc {
+      width: 600px;
+      margin-left: auto;
+    }
+    #tabs .tabs--content__active--nike {
+      margin-left: auto;
+    }
+    #tabs .tabs--content__active--nikes {
+      padding-top: 80px;
+      margin-left: 130px;
+    }
+    #tabs .tabs--content__active--nike__awards h1 span::before {
+      width: 448.008px;
+    }
+    #tabs .tabs--content__active--nike__hover p span::before {
+      width: 226.06099999999998px;
+    }
+    #tabs .tabs--content__active--nike__hovers p span::before {
+      width: 228.06099999999998px;
+    }
+    #tabs .tabs--content__active--nike__hovers p span::before {
+      width: 228.06099999999998px;
+    }
+    #tabs .tabs--content__active--nike__love h1 span::before {
+      width: 450.008px;
+    }
+    #tabs .tabs--content__active--nike__fee--no p span::before {
+      width: 227.06099999999998px;
+    }
+    #tabs .tabs--content__active--nikes {
+      padding-top: 80px;
+    }
+  }
+
+@media (max-width: 576px) {
+  #tabs .tabs--bloc {
+    width: auto;
+  }
+
+}
+
+@media (max-width: 450px) {
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 19px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 20px;
+    width: 180px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    margin-left: 132px;
+    width: 174px;
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 368.008px;
+  }
+  #tabs .tabs--content__active--nike__duration h1 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    width: 148.061px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 153.061px;
+  }
+  #tabs .tabs--content__active--nike__love--loves h6 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 16px;
+    width: 177px;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 366.008px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 15px;
+    width: 170px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 16px;
+    width: 158px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    width: 140.061px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 183px;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nikes {
+    padding-top: 80px;
+    margin-left: auto;
+  }
+  #tabs .tabs--content__active--nikes {
+    /* margin-left: auto; */
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 19px;
+    margin-left: -31px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    margin-left: -31px;
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 13px;
+    padding: -4px 0;
+    margin-left: 66px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 14px;
+    margin-left: 72px;
+  }
+  #tabs .tabs--content__active--nike__fee--no {
+    margin-left: 62px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    margin-left: 41px;
+  }
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 376px) {
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 19px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 20px;
+    width: 180px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    margin-left: 102px;
+    width: 174px;
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 328.008px;
+  }
+  #tabs .tabs--content__active--nike__duration h1 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    width: 138.061px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 153.061px;
+  }
+  #tabs .tabs--content__active--nike__love--loves h6 {
+    font-size: 16px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 16px;
+    width: 177px;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 336.008px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 15px;
+    width: 170px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 16px;
+    width: 158px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    width: 130.061px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 183px;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nikes {
+    padding-top: 80px;
+    margin-left: auto;
+  }
+  #tabs .tabs--content__active--nikes {
+    /* margin-left: auto; */
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 19px;
+    margin-left: -11px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 19px;
+    margin-left: -47px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 20px;
+    width: 188px;
+    margin-left: -49px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    margin-left: -26px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 14px;
+    margin-left: 48px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    margin-left: 47px;
+  }
+  #tabs .tabs--content__active--nike__love--loves {
+    width: 338px;
+    height: 248px;
+    margin-left: 45px;
+    position: relative;
+  }
+  #tabs .tabs--content__active--nike__fee--no {
+    margin-left: 43px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 163px;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 16px;
+    margin-left: -78px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 18px;
+    width: 155px;
+    margin-left: -78px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    margin-left: 72px;
+    width: 129px;
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    margin-left: -56px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 289.008px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    margin-left: 22px;
+  }
+  #tabs .tabs--content__active--nike__hover p span {
+    display: none;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  #tabs .tabs--content__active--nike__love--loves {
+    margin-left: 2px;
+    font-size: 10px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 15px;
+    width: 130px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 12px;
+    width: 109px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    width: 115.061px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    width: 163px;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: -6px;
+  }
+  #tabs .tabs--content__active--nikes__not {
+    width: 205px;
+    height: 60px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar h5 {
+    font-size: 17px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar h6 {
+    font-size: 13px;
+    padding-top: 20px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar p {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h5 {
+    font-size: 22px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h5 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h6 {
+    font-size: 14px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast p {
+    font-size: 20px;
+  }
+  #tabs .tabs--content__active--nikes__now {
+    width: 214px;
+    height: 65px;
+  }
+  #tabs .tabs--content__active--nikes__now h1 {
+    width: 370px;
+    font-size: 14px;
+    margin-left: -99px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 256px;
+    margin-left: 43px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 256px;
+    margin-left: 26px;
+  }
+  #tabs .tabs--content__active--nikes__wat {
+    display: none;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

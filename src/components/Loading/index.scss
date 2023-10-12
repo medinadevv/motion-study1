@@ -1,0 +1,150 @@
+#load{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  .load{
+
+    &--bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      animation: any 5s linear;
+      z-index: -1;
+    }
+
+    @keyframes any {
+      0%{
+        background: black;
+      }
+      50%{
+        background: gray;
+      }
+      100%{
+        background: transparent;
+      }
+    }
+    h1{
+      display: flex;
+      align-items: center;
+      span{
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 93px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #5609BB;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #load{
+    //top: 20%;
+    .load{
+      h1{
+        span{
+          font-size: 70px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #load{
+    //top: 45%;
+    .load{
+      h1{
+        span{
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #load{
+    //top: 41%;
+    //left: 41%;
+    .load{
+      h1{
+        span{
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #load{
+    //top: 41%;
+    //left: 41%;
+    .load{
+      h1{
+        span{
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #load{
+    //top: 41%;
+    //left: 41%;
+    .load{
+      h1{
+        span{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #load{
+    //top: 41%;
+    //left: 41%;
+    .load{
+      h1{
+        span{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #load{
+    //top: 40%;
+    //left: 40%;
+    .load{
+      h1{
+        span{
+          font-size: 46px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #load{
+    //top: 40%;
+    //left: 40%;
+    .load{
+      h1{
+        span{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,211 @@
+#flag {
+    padding: 100px 0;
+  h1 {
+    color: var(#212121);
+    font-family: Gilroy, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0 0 44px 15px;
+  }
+  .flag {
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      a{
+        color: #000;
+      }
+      &__one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 235px;
+        height: 270px;
+        border-radius: 14px;
+        background: #fdfdfd;
+        box-shadow: 4.82119607925415px 7.713913440704346px 24.10597801208496px
+          0 rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-top: 100px;
+        h2 {
+          color: var(#212121);
+          font-family: Montserrat, sans-serif;
+          font-size: 24px;
+          font-weight: 400;
+          padding-top: 20px;
+        }
+        img {
+          width: 172px;
+          height: 172px;
+        }
+      }
+    }
+    &--select {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-left: -25px;
+      select {
+        outline: none;
+        border: none;
+        background: #fdfdfd;
+        text-align: center;
+        font-size: 17px;
+        option {
+          border: none;
+          outline: none;
+          padding: 20px 300px;
+         
+        }
+      }
+      &__options{
+        margin: 0 0 0 55px;
+    }
+    }
+  }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  #flag .flag--select {
+    margin-left: 23px;
+  }
+  #flag h1 {
+    margin: 0 0 31px 63px;
+  }
+}
+@media (max-width: 576px) {
+  #flag .flag--select {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  #flag .flag--select select {
+    margin: 0 0 20px 0;
+  }
+}
+@media (max-width: 500px) {
+  #flag {
+    .container {
+      h1 {
+        font-size: 39px;
+      }
+      .flag {
+        &--select {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-left: -24px;
+          select {
+            margin: 0 0 20px 0;
+          }
+        }
+        &--block {
+          &__one {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+  #flag .flag--block__one img {
+    width: 111px;
+    height: 111px;
+  }
+  #flag .flag--block__one img {
+    width: 111px;
+    height: 111px;
+    margin-left: -158px;
+    margin-top: -26px;
+  }
+  #flag .flag--block__one h2 {
+    margin-left: 130px;
+    margin-top: -81px;
+  }
+  #flag .flag--block__one {
+    width: 371px;
+    height: 155px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+  }
+}
+
+@media (max-width: 450px) {
+  #flag .flag--select select {
+    font-size: 14px;
+  }
+  #flag .flag--block__one img {
+    width: 80px;
+    height: 80px;
+    margin-left: -217px;
+  }
+  #flag .flag--block__one {
+    width: 353px;
+    height: 114px;
+  }
+  #flag .container h1 {
+    font-size: 34px;
+    margin: 0 0 31px 31px;
+  }
+  #flag{
+    .container{
+      .flag{
+        &--select{
+          &__options{
+            .opt{
+              margin: 0 284px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #flag .container .flag--select__options .opt {
+    margin: 0 191px 0 0
+  }
+  #flag .flag--select select {
+    font-size: 18px;
+  }
+  #flag .container .flag--select select {
+    margin: 0 69px 23px -41px;
+  }
+}
+@media (max-width: 376px) {
+  #flag .container h1 {
+    margin: 0 0 31px 14px;
+  }
+}
+@media (max-width: 320px) {
+  #flag .container .flag--select {
+    margin-left: 49px;
+  }
+  #flag .flag--block__one {
+    width: 261px;
+    height: 106px;
+  }
+  #flag .flag--block__one img {
+    width: 69px;
+    height: 66px;
+    margin-left: -160px;
+  }
+  #flag .flag--block__one h2 {
+    margin-left: 86px;
+    margin-top: -69px;
+  }
+  #flag .container h1 {
+    font-size: 28px;
+  }
+}
